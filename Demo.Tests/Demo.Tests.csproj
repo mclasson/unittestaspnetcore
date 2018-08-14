@@ -23,4 +23,10 @@
     <ProjectReference Include="..\Demo.Web\Demo.Web.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="testSettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
